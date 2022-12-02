@@ -28,7 +28,7 @@ If you need to install docker:
 
 ### Open Docker Desktop
 
-This will start docker daemon if it isn't running:
+This will start the docker daemon if it isn't running:
 
 ```sh
 open -a Docker
@@ -40,7 +40,9 @@ Check it again:
 docker ps
 ```
 
-## Init the plan
+## Terraform
+
+### Init the plan
 
 ```sh
 terraform init
@@ -64,7 +66,7 @@ terraform apply
 docker ps
 ```
 
-If you have a lot of container running already, you can filter with:
+If you have a lot of containers running already, you can filter with:
 
 ```sh
 docker ps | grep random
