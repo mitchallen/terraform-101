@@ -17,7 +17,7 @@ resource "docker_image" "random" {
 }
 
 # Create a docker container resource
-# -> same as 'docker run --name random -p1220:3100 -d mitchallen/random-server:latest'
+# -> same as 'docker run --name random -p1220:3100 mitchallen/random-server:latest'
 resource "docker_container" "random" {
   image = docker_image.random.image_id
   name  = "random"
