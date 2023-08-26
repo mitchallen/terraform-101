@@ -1,3 +1,6 @@
+// Author: Mitch Allen
+// File: main.tf
+
 terraform {
   required_providers {
     docker = {
@@ -7,7 +10,11 @@ terraform {
   }
 }
 
-provider "docker" {}
+provider "docker" {
+  // docker context ls
+  //  host = "unix://$HOME/.docker/run/docker.sock" 
+  host = var.docker_endpoint
+}
 
 # Create a docker image resource
 # -> docker pull mitchallen/random-server:latest
