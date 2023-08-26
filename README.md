@@ -50,11 +50,29 @@ terraform init
 
 ### Run the plan
 
+If using Docker for Mac, run this first:
+
+```sh
+export TF_VAR_docker_endpoint=unix://$HOME/.docker/run/docker.sock
+```
+
 ```sh
 terraform plan
 ```
 
+If you run into issues with Docker, check the current context:
+
+```sh
+docker context ls
+```
+
 ### Apply the plan
+
+If using Docker for Mac, run this first:
+
+```sh
+export TF_VAR_docker_endpoint=unix://$HOME/.docker/run/docker.sock
+```
 
 ```sh
 terraform apply
