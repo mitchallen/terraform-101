@@ -10,9 +10,9 @@ terraform {
   }
 }
 
+// export TF_VAR_docker_endpoint=unix://$HOME/.docker/run/docker.sock
 provider "docker" {
-  // docker context ls
-  //  host = "unix://$HOME/.docker/run/docker.sock" 
+  // docker context ls 
   host = var.docker_endpoint
 }
 
