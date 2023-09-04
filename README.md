@@ -1,6 +1,10 @@
 
 # terraform-101
 
+See article:
+
+* [Getting Started with Terraform (Docker, Mac, IaC)](https://scriptable.com/getting-started-with-terraform-docker-mac/)
+
 ## Usage
 
 ### Install Terraform (Mac)
