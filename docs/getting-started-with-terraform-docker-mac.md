@@ -6,11 +6,8 @@ In this article, I will show you how to get started with Terraform.
 
 **Terraform** is an **Infrastructure-as-Code** (**IaC**) tool. It lets you write and run code to automate the installation and configuration of your localhost or cloud environments.
 
-:::info
+> **Info:** These instructions were written and tested on a Mac.
 
-These instructions were written and tested on a Mac.
-
-:::
 
 ## Step 1. Install Terraform
 
@@ -20,11 +17,8 @@ You can find Terraform install instructions for Mac, Windows, and Linux here:
 
 I followed the instructions for using **brew** to install it on my Mac.
 
-:::info
+> **Info:** If you are on a Mac and don't have brew installed, see the instructions here: [https://brew.sh](https://brew.sh/?ref=scriptable.com)
 
-If you are on a Mac and don't have brew installed, see the instructions here: [https://brew.sh](https://brew.sh/?ref=scriptable.com)
-
-:::
 
 On a Mac, you can install Terraform like this:
 
