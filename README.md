@@ -3,7 +3,7 @@
 
 See article:
 
-* [Getting Started with Terraform (Docker, Mac, IaC)](https://scriptable.com/getting-started-with-terraform-docker-mac/)
+* [Getting Started with Terraform (Docker, Mac, IaC)](./docs/getting-started-with-terraform-docker-mac.md)
 
 ## Usage
 
