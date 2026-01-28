@@ -151,7 +151,7 @@ To pull a Docker image using Terraform, append this declarative block to **main.
 
 ```tf
 # Create a docker image resource
-# -> docker pull mitchallen/random-server:latest
+# -> docker pull ghcr.io/mitchallen/random-server:latest
 resource "docker_image" "random" {
   name         = "ghcr.io/mitchallen/random-server:latest"
   keep_locally = false
@@ -172,7 +172,7 @@ To create a Docker container from the image, append this block to **main.tf** an
 
 ```tf
 # Create a docker container resource
-# -> same as 'docker run --name random -p1220:3100 mitchallen/random-server:latest'
+# -> same as 'docker run --name random -p1220:3100 ghcr.io/mitchallen/random-server:latest'
 resource "docker_container" "random" {
   image = docker_image.random.image_id
   name  = "random"
