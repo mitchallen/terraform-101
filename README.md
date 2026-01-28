@@ -108,7 +108,7 @@ curl http://localhost:1220/v1/coords/1
 
 For more commands see:
 
-* https://hub.docker.com/r/mitchallen/random-server
+* https://github.com/mitchallen/random-server
 
 ### Destroy the plan
 
@@ -127,7 +127,6 @@ docker ps
 * https://developer.hashicorp.com/terraform/cli/commands/plan
 * https://spacelift.io/blog/terraform-plan
 * https://developer.hashicorp.com/terraform/downloads
-* https://hub.docker.com/r/mitchallen/random-server
 * https://dev.to/pavanbelagatti/using-terraform-to-manage-infrastructure-resources-32da
 * https://dockerlabs.collabnix.com/advanced/automation/terraform/terraform-mac-nginx.html
 * https://developer.hashicorp.com/terraform/tutorials/docker-get-started/docker-build

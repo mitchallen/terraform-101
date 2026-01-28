@@ -19,7 +19,7 @@ provider "docker" {
 # Create a docker image resource
 # -> docker pull mitchallen/random-server:latest
 resource "docker_image" "random" {
-  name         = "mitchallen/random-server:latest"
+  name         = "ghcr.io/mitchallen/random-server:latest"
   keep_locally = false
 }
 
